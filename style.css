@@ -1,0 +1,159 @@
+body {
+    background: #F8F8F8
+}
+
+.page {
+    width: 1400px;
+    background: white;
+    margin: 0 auto;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+    background: white;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+
+/* header */
+header {
+    padding: 31px 0;
+    position: relative;
+    box-shadow: 0 2px 11px 0 rgba(0,0,0,0.15);
+}
+
+.header_phone {
+    text-align: right;
+    color: #E15826;
+    font-size: 160x;
+    letter-spacing: 1.33px;
+    font-family: "Open Sans";
+}
+
+h1 {
+    text-align: center;
+    font-family: "Enriqueta";
+    color: #E15826;
+    font-size: 22px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.logo {
+    height: 136px;
+    width: 101px;
+    position: absolute;
+    top: 0px;
+}
+
+.sound {
+    display: inline;
+}
+
+.sound_header {
+    vertical-align: middle;
+    margin: 104px 101px 34px 101px;
+
+    
+}
+
+.sound_icon {
+    height: 30px;
+    width: 35px;
+}
+
+.sound_text {
+    padding: 0 10px 5px 10px;
+}
+
+.sound_icon:nth-of-type(2) {
+    transform: scaleX(-1);
+}
+
+
+/* video */
+.video {
+    height: 454px;	
+    width: 970px;
+    background-image: url("./images/Group\ 2@3x.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+/* button */
+.next_step {
+    height: 57px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: #FF9E32;
+    color: #FFFFFF;	
+    font-family: Helvetica;	
+    font-size: 14px;	
+    font-weight: bold;	
+    letter-spacing: 2px;	
+    line-height: 14px;
+    margin: 45px 385px;
+}
+
+/* dr. melina */
+.melina {
+    display: flex;
+    width: 770px;
+    padding-bottom: 50px;
+}
+
+.melina_heading {
+    font-size: 25px;
+    height: 36px;
+    width: 200px;
+    text-align: left;
+}
+
+.nutritionalist {
+    font-family: "Open Sans";
+    height: 18px;
+    width: 124px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.melina_title {
+    border-right: 2px solid #625E5D;
+    height: 141px;
+    margin-top: 12px;
+    margin-left: 20px;
+
+}
+
+.melina_bio {
+    height: 120px;	
+    width: 337px;	
+    color: #000000;	
+    font-family: "Open Sans";	
+    font-size: 14px;	
+    font-weight: 300;	
+    line-height: 20px;
+    margin-left: 31px;
+    margin-top: 12px;
+}
+
+.melina_img {
+
+}
+
+/* info */
+.info_header {
+
+}
+
+.info_info {
+    height: 185px;
+    width: 769px;
+    border-radius: 8px;
+    background-color: #FFFFFF
+}
