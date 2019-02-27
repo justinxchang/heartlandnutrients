@@ -11,13 +11,7 @@ body {
 .container {
     width: 970px;
     margin: 0 auto;
-    background: white;
 }
-
-.center {
-    margin: 0 auto;
-}
-
 
 /* header */
 header {
@@ -51,23 +45,24 @@ h1 {
 }
 
 .sound {
-    display: inline;
+    display: inline-block;
 }
 
 .sound_header {
-    vertical-align: middle;
     margin: 104px 101px 34px 101px;
-
-    
 }
 
 .sound_icon {
     height: 30px;
     width: 35px;
+    vertical-align: middle;
+
 }
 
 .sound_text {
-    padding: 0 10px 5px 10px;
+    padding: 0 35px 5px 35px;
+    vertical-align: middle;
+
 }
 
 .sound_icon:nth-of-type(2) {
@@ -148,7 +143,7 @@ h1 {
 
 /* info */
 .info_header {
-
+    margin: 74px 0;
 }
 
 .info_info {
@@ -156,4 +151,93 @@ h1 {
     width: 769px;
     border-radius: 8px;
     background-color: #FFFFFF
+
+}
+
+ul {
+    columns: 2;
+    height: 118px;
+    width: 643px;
+    padding: 34px;
+    margin: 0 auto;
+}
+
+li {
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 20px;
+    height: 40px;
+    width: 245px;
+    margin-bottom: 38px;
+}
+
+ul li:before {
+    content: "•";
+    color: #E15826;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-left: -17px;
+    width: 17px;
+}
+
+
+
+/* citations */
+.citations {
+
+}
+
+.citations_header {
+    height: 30px;	
+    width: 768px;	
+    color: #E15826;	
+    font-family: Enriqueta;	
+    font-size: 16px;	
+    font-weight: bold;	
+    line-height: 21px;
+    margin-top: 57px;
+    margin-bottom: 12px;
+}
+
+.citations_text {
+    height: 318px;	
+    width: 971px;	
+    color: #616161;	
+    font-family: "Open Sans";	
+    font-size: 11px;	
+    line-height: 15px
+}
+
+/* footer */
+.footer_title {
+    height: 21px;	
+    width: 769px;	
+    color: #616161;	
+    font-family: Enriqueta;	
+    font-size: 16px;	
+    font-weight: bold;	
+    line-height: 16px;	
+    text-align: center;
+}
+
+.footer_text {
+    height: 90px;
+    width: 970px;
+    color: #616161;
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 18px;
+    margin: 10px 0;
+}
+
+.footer_privacy {
+    height: 21px;	
+    width: 769px;	
+    color: #E87335;	
+    font-family: Enriqueta;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 16px;	
+    text-align: center;
 }
