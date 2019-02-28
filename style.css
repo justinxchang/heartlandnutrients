@@ -3,7 +3,7 @@ body {
 }
 
 .page {
-    width: 1400px;
+    width: 1440px;
     background: white;
     margin: 0 auto;
 }
@@ -15,7 +15,7 @@ body {
 
 /* header */
 header {
-    padding: 31px 0;
+    padding: 33px 0;
     position: relative;
     box-shadow: 0 2px 11px 0 rgba(0,0,0,0.15);
 }
@@ -23,7 +23,7 @@ header {
 .header_phone {
     text-align: right;
     color: #E15826;
-    font-size: 160x;
+    font-size: 16px;
     letter-spacing: 1.33px;
     font-family: "Open Sans";
 }
@@ -60,7 +60,7 @@ h1 {
 }
 
 .sound_text {
-    padding: 0 40px 5px 40px;
+    padding: 0 35px 5px 35px;
     vertical-align: middle;
 
 }
