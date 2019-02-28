@@ -48,7 +48,7 @@
         </div>
         <div class="info_info container">
             <ul>
-                <li>3-step Energy & Digestive Health Protocol.</li>
+                <li>3-step Energy & <br/> Digestive Health Protocol.</li>
                 <li>How to avoid caffeine-crashes</li>
                 <li>How many times a day you should actually be "eliminating".</li>
                 <li>What the digestive system craves first thing in the morning.</li>

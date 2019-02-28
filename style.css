@@ -60,7 +60,7 @@ h1 {
 }
 
 .sound_text {
-    padding: 0 35px 5px 35px;
+    padding: 0 40px 5px 40px;
     vertical-align: middle;
 
 }
@@ -103,7 +103,7 @@ h1 {
 
 .melina_heading {
     font-size: 25px;
-    height: 36px;
+    height: 32px;
     width: 200px;
     text-align: left;
 }
@@ -120,8 +120,8 @@ h1 {
 .melina_title {
     border-right: 2px solid #625E5D;
     height: 141px;
-    margin-top: 12px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
 
 }
 
@@ -134,7 +134,7 @@ h1 {
     font-weight: 300;	
     line-height: 20px;
     margin-left: 31px;
-    margin-top: 12px;
+    margin-top: 24px;
 }
 
 .melina_img {
@@ -151,7 +151,6 @@ h1 {
     width: 769px;
     border-radius: 8px;
     background-color: #FFFFFF
-
 }
 
 ul {
@@ -159,7 +158,7 @@ ul {
     height: 118px;
     width: 643px;
     padding: 34px;
-    margin: 0 auto;
+    margin: 0 auto 0 60px;
 }
 
 li {
@@ -172,13 +171,14 @@ li {
 }
 
 ul li:before {
-    content: "•";
-    color: #E15826;
+    content: "";
+    background-color: #E15826;
     width: 11px;
     height: 11px;
     display: inline-block;
-    margin-left: -17px;
-    width: 17px;
+    margin-left: -30px;
+    margin-right: 18px;
+    border-radius: 5.5px;
 }
 
 
