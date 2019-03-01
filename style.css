@@ -6,6 +6,7 @@ body {
     width: 1440px;
     background: white;
     margin: 0 auto;
+    position: relative;
 }
 
 .container {
@@ -14,7 +15,7 @@ body {
 }
 
 /* header */
-header {
+.header {
     padding: 33px 0;
     box-shadow: 0 2px 11px 0 rgba(0,0,0,0.15);
 }
@@ -27,7 +28,7 @@ header {
     font-family: "Open Sans";
 }
 
-h1 {
+.header_heading {
     text-align: center;
     font-family: "Enriqueta";
     color: #E15826;
@@ -56,7 +57,6 @@ h1 {
     height: 30px;
     width: 35px;
     vertical-align: middle;
-
 }
 
 .sound_text {
@@ -70,7 +70,7 @@ h1 {
 
 /* video */
 .video {
-    height: 454px;	
+    /* height: 545px;	 */
     width: 970px;
     background-image: url("./images/Group\ 2@3x.jpg");
     background-size: cover;
@@ -92,20 +92,19 @@ h1 {
     margin: 45px 385px;
 }
 
-/* dr. melina */
-.melina {
-    /* display: flex; */
+/* doctor */
+.doctor {
     width: 770px;
     padding-bottom: 50px;
     vertical-align: middle;
+    margin: 0 auto;
 }
 
-
-.melina_img {
+.doctor_img {
     display: inline-block;
 }   
 
-.melina_title {
+.doctor_title {
     border-right: 2px solid #625E5D;
     height: 141px;
     margin-top: 20px;
@@ -114,7 +113,7 @@ h1 {
     vertical-align: top;
 }
 
-.melina_heading {
+.doctor_heading {
     font-size: 25px;
     height: 32px;
     width: 200px;
@@ -130,7 +129,7 @@ h1 {
     line-height: 21px;
 }
 
-.melina_bio {
+.doctor_bio {
     height: 120px;	
     width: 329px;	
     color: #000000;	
@@ -156,7 +155,6 @@ h1 {
     width: 769px;
     border-radius: 8px;
     background-color: #FFFFFF;
-    /* display: inline-block; */
 }
 
 .info_points {
@@ -164,16 +162,14 @@ h1 {
     vertical-align: middle;
 }
 
-ul {
-    /* columns: 2; */
+.info_ul {
     height: 118px;
-    /* width: 643px; */
     padding: 34px;
     margin: 0 auto 0 60px;
     display: inline-block;
 }
 
-li {
+.info_li {
     font-family: "Open Sans";
     font-size: 16px;
     line-height: 20px;
@@ -182,7 +178,7 @@ li {
     margin-bottom: 38px;
 }
 
-ul li:before {
+.info_li:before {
     content: "";
     background-color: #E15826;
     width: 11px;
@@ -193,13 +189,7 @@ ul li:before {
     border-radius: 5.5px;
 }
 
-
-
 /* citations */
-.citations {
-
-}
-
 .citations_header {
     height: 30px;	
     width: 768px;	
@@ -252,4 +242,40 @@ ul li:before {
     font-weight: bold;	
     line-height: 16px;	
     text-align: center;
+}
+
+/* Ooyala Video */
+.ooyalaVideo {
+    /* padding: 100px 0 20px 0; */
+}
+
+.ooyalaVideo_speaker {
+    display: inline-block;
+    width: 35px;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.ooyalaVideo_speaker-right {
+    transform: scaleX(-1);
+}
+
+.ooyalaVideo_title {
+    font-family: "Enriqueta", serif;
+    font-weight: 700;
+    color: #E15826;
+    font-size: 22px;
+    text-align: center;
+}
+
+.ooyalaVideo_button {
+    display: none;
+    margin: 45px auto;
+    border-radius: 100px;
+    background-color: #FF9E32;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    text-align: center;
+    padding: 18px 0;
 }
