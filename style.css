@@ -16,7 +16,6 @@ body {
 /* header */
 header {
     padding: 33px 0;
-    position: relative;
     box-shadow: 0 2px 11px 0 rgba(0,0,0,0.15);
 }
 
@@ -37,13 +36,14 @@ h1 {
     font-weight: bold;
 }
 
-.logo {
+.header_logo {
     height: 136px;
     width: 101px;
     position: absolute;
     top: 0px;
 }
 
+/* sound */
 .sound {
     display: inline-block;
 }
@@ -62,13 +62,11 @@ h1 {
 .sound_text {
     padding: 0 35px 5px 35px;
     vertical-align: middle;
-
 }
 
 .sound_icon:nth-of-type(2) {
     transform: scaleX(-1);
 }
-
 
 /* video */
 .video {
@@ -96,9 +94,24 @@ h1 {
 
 /* dr. melina */
 .melina {
-    display: flex;
+    /* display: flex; */
     width: 770px;
     padding-bottom: 50px;
+    vertical-align: middle;
+}
+
+
+.melina_img {
+    display: inline-block;
+}   
+
+.melina_title {
+    border-right: 2px solid #625E5D;
+    height: 141px;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .melina_heading {
@@ -117,29 +130,21 @@ h1 {
     line-height: 21px;
 }
 
-.melina_title {
-    border-right: 2px solid #625E5D;
-    height: 141px;
-    margin-top: 20px;
-    margin-left: 30px;
-
-}
-
 .melina_bio {
     height: 120px;	
-    width: 337px;	
+    width: 329px;	
     color: #000000;	
     font-family: "Open Sans";	
     font-size: 14px;	
     font-weight: 300;	
     line-height: 20px;
-    margin-left: 31px;
+    margin-left: 30px;
     margin-top: 24px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
 }
 
-.melina_img {
-
-}
 
 /* info */
 .info_header {
@@ -150,15 +155,22 @@ h1 {
     height: 185px;
     width: 769px;
     border-radius: 8px;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    /* display: inline-block; */
+}
+
+.info_points {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 ul {
-    columns: 2;
+    /* columns: 2; */
     height: 118px;
-    width: 643px;
+    /* width: 643px; */
     padding: 34px;
     margin: 0 auto 0 60px;
+    display: inline-block;
 }
 
 li {

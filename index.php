@@ -15,7 +15,7 @@
         <header>
             <div class="container">
                 <p class="header_phone">(000) 000-0000</p>
-                <img class="logo" src="./images/logo@3x.png">
+                <img class="header_logo" src="./images/logo@3x.png">
             </div>
         </header>
         <div class="container">
@@ -47,12 +47,18 @@
             <h1>IN THIS PRESENTATION YOU'RE GOING TO LEARN:</h1>
         </div>
         <div class="info_info container">
-            <ul>
-                <li>3-step Energy & <br/> Digestive Health Protocol.</li>
-                <li>How to avoid caffeine-crashes</li>
-                <li>How many times a day you should actually be "eliminating".</li>
-                <li>What the digestive system craves first thing in the morning.</li>
-            </ul>
+            <div class="info_points">
+                <ul>
+                    <li>3-step Energy & <br/> Digestive Health Protocol.</li>
+                    <li>How to avoid caffeine-crashes</li>
+                </ul>
+            </div>
+            <div class="info_points">
+                <ul>
+                    <li>How many times a day you should actually be "eliminating".</li>
+                    <li>What the digestive system craves first thing in the morning.</li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="citations container">
