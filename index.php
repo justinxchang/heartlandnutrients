@@ -94,7 +94,6 @@
                         });
 
                         </script>
-                        <a href="survey190215A.php" class="ooyalaVideo_button">Next Step</a>
                     </div>
                 </div><!-- end .ooyalaVideo -->
             </div>
